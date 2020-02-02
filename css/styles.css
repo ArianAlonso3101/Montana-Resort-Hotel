@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	background-image: url(../img/fondohabitaciones.jpg);
+}
+
+#letrasheader{ 	font-family: 'Rubik', sans-serif;
+				font-size: 20px; }
+footer { background-color: #222831;}
+
+#contactofondo {
+	background-image: url(../img/fondo_contacto.jpg);
+	background-position: center center;	  
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;}
+
+
+#contacto {
+	width: 90%;
+	max-width: 800px;
+	box-shadow: 0 0 10px rgba(0,0,0,.3);
+	}
+
+.titulo{	font-family: 'Lobster', cursive;
+			font-family: 'Bowlby One SC', cursive;}
+
+
+
+/*Descripcion de cuartos*/
+#habitacionesfondo {
+	background-image: url(../img/fondohabitaciones.jpg);
+	background-position: center center;	  
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;}
+
+#descripcion {
+	width: 80%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);}
+
+	#descripcion .content{ padding: 40px;}
+
+ #descripcion {	
+	display:block;
+	margin: auto;
+	max-width: 100%;}

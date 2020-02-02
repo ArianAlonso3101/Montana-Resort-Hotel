@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Montana Resort</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> <!-- Bootstrap -->
+	<link rel="shortcut icon" href="img/logopestaña.jpg">
+	<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Lobster&display=swap" rel="stylesheet"> <!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- Icons Materials -->
+</head>
+
+<body>
+	<!-- Header -->
+	<header>
+		<nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul id="letrasheader" class="navbar-nav mr-auto">
+
+					<!-- Boton de Inicio/Home -->
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Nuestro Hotel <span class="sr-only">(current)</span></a>
+					</li>
+
+					<!--  Habitaciones Boton desplegable -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Habitaciones y Suites
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="TodasLasHabitaciones.html">Todas las habitaciones y suites</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Suite Junior</a>
+							<a class="dropdown-item" href="#">Suite de un Dormitorio</a>
+							<a class="dropdown-item" href="#">Suite de dos Dormitorios</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Habitacion de Lujo</a>
+							<a class="dropdown-item" href="#">Habitacion doble Superior de Lujo</a>
+						</div>
+					</li>
+					
+					<!-- Contacto Boton -->
+					<li class="nav-item active">
+						<a class="nav-link" href="contacto.html">Reservar <span class="sr-only">(current)</span></a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Que buscabas?" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+				</form>
+			</div>
+		</nav>
+	</header>
+
+
+	<main id="contactofondo">
+		<div id="contacto" class="container">
+		    <div class="row">
+		        <div class="col-md-12">
+		            <div class="well well-sm">
+		                <form class="form-horizontal" method="post">
+		                    <fieldset>
+		                        <legend class="text-left header titulo"><br>RESERVE CON NOSOTROS Y AHORRE</legend>
+
+		                        <div class="form-group">
+		                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+		                            <div class="col-md-8">
+		                                <input id="fname" name="name" type="text" placeholder="Nombre(s)" class="form-control">
+		                            </div>
+		                        </div>
+		                        <div class="form-group">
+		                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+		                            <div class="col-md-8">
+		                                <input id="lname" name="name" type="text" placeholder="Apellidos" class="form-control">
+		                            </div>
+		                        </div>
+
+		                        <div class="form-group">
+		                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+		                            <div class="col-md-8">
+		                                <input id="email" name="email" type="text" placeholder="email" class="form-control">
+		                            </div>
+		                        </div>
+
+		                        <div class="form-group">
+		                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+		                            <div class="col-md-8">
+		                                <input id="phone" name="phone" type="number" placeholder="Telefono" class="form-control">
+		                            </div>
+		                        </div>
+
+		                         <div class="form-group">
+		                            <span class="col-md-1 col-md-offset-2 text-center">
+		                            	<i class="fa fa-phone-square bigicon"></i>
+		                            </span>
+		                            <div class="col-md-4">
+		                            	<h6 class="titulo">Desde</h6>
+		                                <input id="date" name="phone" type="date" placeholder="LLegada" class="form-control">
+		                            </div>
+		                            <div class="col-md-4">
+		                            	<h6 class="titulo">Hasta</h6>
+		                                <input id="date" name="phone" type="date" placeholder="Regreso" class="form-control">
+		                            </div>
+
+		                            <div class="col-md-2">
+		                            	<br>
+		                            	<h6 class="titulo">No de Personas</h6>
+		                                <input id="date" name="phone" type="number" placeholder="Adultos" class="form-control">
+		                                <br><input id="date" name="phone" type="number" placeholder="Niños" class="form-control">
+		                            </div>
+		                        </div>
+
+		       
+		                        <div class="form-group">
+		                            <div class="col-md-12 text-center">
+		                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+		                            </div>
+		                        </div>
+		                    </fieldset>
+		                </form>
+		            </div>
+		        </div>
+		    </div>
+
+
+		    <center>
+		    	<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flosexpertosmayoristas%2Fvideos%2F335812274009157%2F&width=500&show_text=false&height=280&appId" width="500" height="280" style="border:solid;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+		    </center>
+
+		</div>
+
+	</main>
+
+
+
+	<!-- Footer -->
+	<footer class="page-footer font-small unique-color-dark">
+		<div style="background-color: #29a19c;">
+			<div class="container">
+				<!-- Grid row-->
+				<div class="row py-4 d-flex align-items-center">
+					<!-- Grid column -->
+					<div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0 text-colo">
+						<h6 class="mb-0" style="color:#a3f7bf;">Conéctate con nosotros en las redes sociales!</h6>
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-6 col-lg-7 text-center text-md-right">
+
+						<!-- Facebook -->
+						<a class="fb-ic"><i class="fab fa-facebook-f white-text mr-4"><img src="img/icon-facebook.png"></i></a>
+						
+						<!--Instagram-->
+						<a class="ins-ic"><i class="fab fa-instagram white-text"><img src="img/icon-instagram.png"></i></a>
+					</div>
+					<!-- Grid column -->
+				</div>
+				<!-- Grid row-->
+			</div>
+		</div>
+		<!-- Footer Links -->
+		<div class="container text-center text-md-left mt-5">
+			<!-- Grid row -->
+			<div class="row mt-3">
+
+				<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 text-white">
+					<!-- Content -->
+					<br><br><img src="img/logo.png">
+				</div>
+				
+				<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+					<!-- Links -->
+					<h6 class="text-uppercase font-weight-bold text-white">Servicios</h6>
+					<hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+					<p><a href="#!">Serv. a la Habitacion</a></p>
+					<p><a href="#!">Restaurante</a></p>
+					<p><a href="#!">Transporte</a></p>
+					<p><a href="#!">Reservaciones</a></p></div>
+
+			<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+				<!-- Links -->
+				<h6 class="text-uppercase font-weight-bold text-white">Servicios Adicionales</h6>
+				<hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+				<p><a href="#!">Spa</a></p>
+				<p><a href="#!">Motos acuticas</a></p>
+				<p><a href="#!">Buceo</a></p>
+				<p><a href="#!">Sky Acuatico</a></p></div>
+				<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-white">
+
+					<!-- Links -->
+					<h6 class="text-uppercase font-weight-bold text-white">Contact</h6>
+					<hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+					<p>
+						<i class="fas fa-home mr-3"></i>Blvd. Kukulcan S/N, Punta Cancun</p>
+						<p><i class="fas fa-envelope mr-3"></i>panamajackresorts.com</p>
+						<p><i class="fas fa-phone mr-3"></i> +1 833-266-5757</p>
+						<p><i class="fas fa-print mr-3"></i>46CV+5R Cancún, Quintana Roo</p>
+					</div>
+					<!-- Grid column --></div>
+			</div>
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-3  text-white">© 2020 Elaboro: Alonso Sotres Arian:
+				<a class=" text-white" href="https://mdbootstrap.com/education/bootstrap/"> FI-UNAM.2019</a></div>
+				<!-- Copyright -->
+	</footer>
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
